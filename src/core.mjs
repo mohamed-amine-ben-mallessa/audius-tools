@@ -102,5 +102,5 @@ export const DRY_RUN = Object.freeze({ dryRun: true })
 
 export function confirm (a, plan) {
   console.log(plan)
-  if (!a.yes) { console.log('\n(dry run — nothing was sent. Add --yes to apply.)'); process.exit(0) }
+  if (!a.yes) { console.log('\n(dry run — nothing was sent. Add --yes to apply.)'); throw DRY_RUN }
 }
