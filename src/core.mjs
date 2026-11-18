@@ -97,6 +97,9 @@ export function emit (rows, cols, a) {
 
 export const fmtDur = s => s == null ? '' : `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`
 
+// Thrown (not process.exit) so pending SDK sockets close cleanly — exiting mid-request trips a libuv assertion on Windows.
+export const DRY_RUN = Object.freeze({ dryRun: true })
+
 export function confirm (a, plan) {
   console.log(plan)
   if (!a.yes) { console.log('\n(dry run — nothing was sent. Add --yes to apply.)'); process.exit(0) }

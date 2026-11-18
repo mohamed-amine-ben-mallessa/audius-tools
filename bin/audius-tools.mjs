@@ -49,4 +49,4 @@ if (!cmd || a.help || cmd === 'help') { console.log(HELP); process.exit(0) }
 if (!R[cmd]) die(`unknown command « ${cmd} » — run: audius-tools help`)
 // The SDK waits on unref'd timers (node selection, retries): without a live handle Node would exit before the answer arrives.
 const keepAlive = setInterval(() => {}, 1 << 30)
-try { await R[cmd](); clearInterval(keepAlive); process.exit(0) } catch (e) { clearInterval(keepAlive); die(e?.message || String(e)) }
+try { await R[cmd](); clearInterval(keepAlive); process.exit(0) } catch (e) { clearInterval(keepAlive); if (e?.dryRun) process.exitCode = 0; else die(e?.message || String(e)) }
