@@ -18,6 +18,10 @@
 - [README](https://github.com/mohamed-amine-ben-mallessa/audius-tools#readme): install, commands, safety, bulk upload, cover generator, FAQ
 - [CHANGELOG](https://github.com/mohamed-amine-ben-mallessa/audius-tools/blob/main/CHANGELOG.md)
 
+## Guides
+- [Audius SDK Node.js cheat sheet](https://gist.github.com/mohamed-amine-ben-mallessa/f91016523d54ba5ccfa9d76bb6e691e5)
+- [Upload music to Audius from the command line](https://gist.github.com/mohamed-amine-ben-mallessa/f5dce79953e61ae6397f244ac1d559f2)
+
 ## Related
 - [LoopHaven](https://github.com/mohamed-amine-ben-mallessa/loop-haven): unofficial Looperman API, CLI and MCP server to find loops by genre, BPM and key
 - [Audius](https://audius.co): artist-owned music streaming platform with an open API (not affiliated)

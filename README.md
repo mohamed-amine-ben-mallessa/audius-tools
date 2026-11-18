@@ -136,6 +136,13 @@ or `audius-tools bulk manifest.json --yes` for many tracks at once.
 **Do I need an account to use it?** No for `trending`, `search`, `comments`, `me`, `list`, `stats` of any public artist;
 yes (API key + bearer token) for anything that writes.
 
+## Guides
+
+- [Audius SDK (Node.js) cheat sheet — upload, cover art, playlists, stats, and 3 traps that make calls hang](https://gist.github.com/mohamed-amine-ben-mallessa/f91016523d54ba5ccfa9d76bb6e691e5)
+- [How to upload music to Audius from the command line](https://gist.github.com/mohamed-amine-ben-mallessa/f5dce79953e61ae6397f244ac1d559f2)
+- [Find loops that fit together (same genre, BPM and key) with LoopHaven](https://gist.github.com/mohamed-amine-ben-mallessa/82bea5e3144b05e91f6d764fefe8d135)
+- [Make a beat with a free AI agent: OpenCode + REAPER MCP + LoopHaven](https://gist.github.com/mohamed-amine-ben-mallessa/009679b1ea06c7c70393e778174e5182)
+
 ## Made with it
 
 The covers above belong to [@benmallessa](https://audius.co/benmallessa), beats made in REAPER with an AI assistant and
