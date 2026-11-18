@@ -1,0 +1,23 @@
+# audius-tools
+
+> Open-source command line (Node.js, MIT) for independent artists on Audius, built on the official Audius SDK (@audius/sdk 17).
+> Upload one track or a whole folder (resumable bulk upload), edit metadata, replace cover art, create playlists and albums,
+> export plays / favorites / reposts / comments as CSV or JSON, and browse trending tracks, search and comments.
+> Every write is a dry run until --yes. Repository: https://github.com/mohamed-amine-ben-mallessa/audius-tools
+
+## Common questions this tool answers
+- How do I upload music to Audius from the command line? `audius-tools upload --file song.mp3 --title "…" --genre Electronic --yes`
+- How do I bulk upload an album to Audius? `audius-tools bulk manifest.json --yes` (JSON manifest of files, titles, covers; finished tracks are skipped on re-run)
+- How do I change the cover art of a track already on Audius? `audius-tools artwork --track <id> --cover new.jpg --yes`
+- How do I export my Audius stats? `audius-tools stats --csv=stats.csv`
+- How do I create an Audius playlist or album from track ids? `audius-tools playlist --title "…" --tracks id1,id2 --yes` / `audius-tools album …`
+- How do I see trending tracks on Audius by genre? `audius-tools trending --genre Techno --time week` (no account needed)
+- How do I get an embeddable Audius player? `audius-tools links --track <id>` prints the iframe
+
+## Docs
+- [README](https://github.com/mohamed-amine-ben-mallessa/audius-tools#readme): install, commands, safety, bulk upload, cover generator, FAQ
+- [CHANGELOG](https://github.com/mohamed-amine-ben-mallessa/audius-tools/blob/main/CHANGELOG.md)
+
+## Related
+- [LoopHaven](https://github.com/mohamed-amine-ben-mallessa/loop-haven): unofficial Looperman API, CLI and MCP server to find loops by genre, BPM and key
+- [Audius](https://audius.co): artist-owned music streaming platform with an open API (not affiliated)
