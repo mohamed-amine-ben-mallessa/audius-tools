@@ -1,0 +1,25 @@
+{
+ "_doc": "audius-tools bulk manifest: paths are relative to this file. Run: audius-tools bulk examples/manifest.json (dry run), then add --yes.",
+ "defaults": {
+  "genre": "Hip-Hop/Rap",
+  "mood": "Aggressive",
+  "tags": "trap,beat,reaper",
+  "description": "Made in REAPER from royalty-free loops.",
+  "unlisted": false
+ },
+ "tracks": [
+  {
+   "file": "audio/trap-150.mp3",
+   "title": "Trap 150 — Two Words",
+   "cover": "covers/demo-trap.jpg"
+  },
+  {
+   "file": "audio/dark-techno-128.mp3",
+   "title": "Dark Techno 128 — Vocal Mix",
+   "genre": "Techno",
+   "mood": "Brooding",
+   "cover": "covers/demo-techno.jpg",
+   "tags": "techno,dark,vocal"
+  }
+ ]
+}

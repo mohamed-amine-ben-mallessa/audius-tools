@@ -1,0 +1,52 @@
+{
+ "size": 1400,
+ "header": "WHAT IF…",
+ "tape": "MY FIRST BEATS",
+ "backgrounds": {
+  "cream": "assets/bg-texture-cream.webp",
+  "kraft": "assets/bg-texture-kraft.webp",
+  "navy": "assets/bg-texture-navy.webp"
+ },
+ "dark": [
+  "navy"
+ ],
+ "tiles": [
+  "#E0402F",
+  "#F2EFE6",
+  "#14183A",
+  "#F2B63C",
+  "#2A9D8F"
+ ],
+ "tracks": [
+  {
+   "id": "demo-trap",
+   "title": "TRAP 150",
+   "subtitle": "TWO WORDS",
+   "hero": "assets/robot-reference.webp",
+   "prop": "assets/prop-gamepad.webp",
+   "bg": "cream",
+   "tape_color": "#F2B63C",
+   "footer": "produced in REAPER"
+  },
+  {
+   "id": "demo-techno",
+   "title": "DARK TECHNO 128",
+   "subtitle": "VOCAL MIX",
+   "hero": "assets/robot-mixing.webp",
+   "prop": "assets/prop-microphone.webp",
+   "bg": "navy",
+   "tape_color": "#E0402F",
+   "footer": "ft. a guest vocalist"
+  },
+  {
+   "id": "demo-tribe",
+   "title": "DARK TRIBE 170",
+   "subtitle": "",
+   "hero": "assets/robot-dance.webp",
+   "prop": "assets/prop-drum-pad.webp",
+   "bg": "kraft",
+   "tape_color": "#2A9D8F",
+   "footer": "made with audius-tools"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "audius-tools",
+  "version": "1.0.0",
+  "description": "CLI for independent artists on Audius: upload, bulk-upload, edit, change cover art, playlists, albums, stats (plays, favorites, reposts) and trending — built on the official Audius SDK.",
+  "type": "module",
+  "bin": { "audius-tools": "bin/audius-tools.mjs" },
+  "files": ["bin", "src", "covers.py", "examples", "assets", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --check bin/audius-tools.mjs && node --check src/core.mjs && node --check src/commands/tracks.mjs && node --check src/commands/collections.mjs && node --check src/commands/discover.mjs && node bin/audius-tools.mjs help",
+    "trending": "node bin/audius-tools.mjs trending"
+  },
+  "keywords": ["audius", "audius-api", "audius-sdk", "audius-cli", "music", "music-upload", "bulk-upload", "cover-art",
+    "album-art", "playlist", "independent-artist", "music-distribution", "web3-music", "music-stats", "beatmaking", "cli"],
+  "repository": { "type": "git", "url": "git+https://github.com/mohamed-amine-ben-mallessa/audius-tools.git" },
+  "homepage": "https://github.com/mohamed-amine-ben-mallessa/audius-tools#readme",
+  "bugs": "https://github.com/mohamed-amine-ben-mallessa/audius-tools/issues",
+  "author": "Mohamed Amine Ben Mallessa",
+  "license": "MIT",
+  "dependencies": { "@audius/sdk": "^17.0.0" }
+}
