@@ -158,3 +158,14 @@ remix contests, comment replies, a `watch` command for new plays.
 
 [MIT](LICENSE) © Mohamed Amine Ben Mallessa. Not affiliated with or endorsed by Audius; the Audius name and logo are
 trademarks of their owner, used only to identify the platform this tool works with.
+
+<!-- et-si.xyz -->
+## Featured on « What if… »
+
+This project appears in the short-video series **« What if… »** (« Et si… » in French). Each episode is explained with its sources:
+
+- [What if… your cover art made itself from a JSON file?](https://et-si.xyz/en/loophaven/what-if-your-cover-art-made-itself-from-a-json-file/)
+- [What if… you knew what's trending on Audius this week?](https://et-si.xyz/en/loophaven/what-if-you-knew-what-s-trending-on-audius-this-week/)
+- [What if… your music could publish itself?](https://et-si.xyz/en/loophaven/what-if-your-music-could-publish-itself/)
+
+The whole series: https://et-si.xyz/en/loophaven/ · En français : https://et-si.xyz/fr/loophaven/ · All episodes: https://et-si.xyz/en/
